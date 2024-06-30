@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    background-image: url("./assets/BGImg.jpg");
+    background-size: cover;
+}
+.container{
+    margin-top: 120px;
+    text-align: center;
+}
+.container div a{
+    text-decoration: none;
+    color: white;
+}
+.uname, .pass, .fname, .lname{
+    width: 50%;
+    margin-left: 25%;
+}
+.uname label i, .pass label i{
+    color: brown;
+}
+.container div a{
+    color: rgb(219, 17, 68);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
